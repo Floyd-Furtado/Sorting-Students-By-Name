@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>SORTING STUDENTS BY NAME</title>
+        <link rel="stylesheet" type="text/CSS" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+     <center>
+        <div id="Content">
+            <h1>Enter Student Names and Student Scores</h1>
+            <div class="Form_Layout">
+                <label class ="Box_1">Student Name:</label>
+                <input type="text" id="Student_Name">
+                <br> <br>
+
+                <label class ="Box_2">Score:</label>
+                <input type="text" id="Scores">
+                <br> <br>
+
+                <button onclick="Sort()" id="Add_Student_Score">Add Student Score</button>
+                <label>&nbsp;</label>
+                <input type="button" id="add_button" value="Add Student Score">
+                <br>
+            </div>
+
+            <h2>Sort Students By Name</h2>
+
+            <form id="Form">
+                <p><textarea id="Scores" rows="5" cols="30" disabled="disabled"></textarea></p>
+            </form>
+
+            <div class="Form_Layout">
+                <label>Average Score:</label>
+                <input type="text" id="Average_Score" disabled="disabled">
+                <br> <br>
+
+                <label>&nbsp;</label>
+                <input type="button" id="clear" value="Clear Student Scores" onclick="Clear_Click()">
+                <br> <br>
+
+                <label>&nbsp;</label>
+                <input type="button" id="sort_button" value="Sort By Student Name">
+                <br>
+            </div>
+        </div>
+     </center>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+	background: linear-gradient( #4C0033 0%, #AF0171 100%);
+	font-size: 28px;
+}
+
+.box1{
+    text-align: center;
+    padding: 40px 40px 5px 20px;
+    font-family: 'Pacifico'
+    color:white;
+}
+
+.box2{
+    text-align: center;
+    padding: 40px 40px 50px 113px;
+    font-family: 'Pacifico';
+    color:white;
+}
+
+h1 {
+    font-family: 'Pacifico'
+    color:white;
+}
+
+h2 {
+    font-family: 'Pacifico'
+    color:white;
+}
+
+label {
+    font-family: 'Pacifico'
+    color:white;
+}
